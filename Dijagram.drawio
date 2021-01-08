@@ -1,19 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T07:11:28.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HEFvK4h5Kr1l6dF-ZYrf" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-08T07:26:06.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9wPesuqCi0aD-xkCuHq_" version="14.1.8" type="github" pages="2">
   <diagram id="5-pdajmqWmWJAicr5mRn" name="Use case - igranje Match 3 puzzle">
     <mxGraphModel dx="522" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZdgTAV3Fr1C1Nv4OE8EV-1" value="Igrač" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="150" y="30" width="70" height="160" as="geometry" />
+          <mxGeometry x="40" y="120" width="70" height="160" as="geometry" />
         </mxCell>
         <mxCell id="xrUjTKpaBdEs2ocpOYhq-1" value="Igranje Match 3 Puzzle" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="180" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xrUjTKpaBdEs2ocpOYhq-2" value="" style="endArrow=classic;html=1;" parent="1" source="ZdgTAV3Fr1C1Nv4OE8EV-1" target="xrUjTKpaBdEs2ocpOYhq-1" edge="1">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-2" value="Bodovanje" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5amFPf08bo_55O6TdgfQ-3" value="Unos igrača" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5amFPf08bo_55O6TdgfQ-4" value="Postavljanje igre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5amFPf08bo_55O6TdgfQ-5" value="Spajanje kombinacija" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5amFPf08bo_55O6TdgfQ-7" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZdgTAV3Fr1C1Nv4OE8EV-1" target="xrUjTKpaBdEs2ocpOYhq-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="400" as="sourcePoint" />
-            <mxPoint x="310" y="350" as="targetPoint" />
+            <mxPoint x="250" y="410" as="sourcePoint" />
+            <mxPoint x="300" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5amFPf08bo_55O6TdgfQ-10" value="Use" style="endArrow=classic;html=1;" edge="1" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="300" as="sourcePoint" />
+            <mxPoint x="320" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5amFPf08bo_55O6TdgfQ-11" value="Use" style="endArrow=classic;html=1;" edge="1" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="250" as="sourcePoint" />
+            <mxPoint x="390" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5amFPf08bo_55O6TdgfQ-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="200" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5amFPf08bo_55O6TdgfQ-16" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5amFPf08bo_55O6TdgfQ-12">
+          <mxGeometry x="0.1829" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5amFPf08bo_55O6TdgfQ-13" value="Use" style="endArrow=classic;html=1;" edge="1" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="170" as="sourcePoint" />
+            <mxPoint x="290" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
