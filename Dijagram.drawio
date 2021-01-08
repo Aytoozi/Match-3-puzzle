@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T07:49:43.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Im7dhi6g01uSOVkIarYe" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-08T07:51:38.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eVm1ScGW6-VpQCWhHBCN" version="14.1.8" type="github" pages="2">
   <diagram id="5-pdajmqWmWJAicr5mRn" name="Use case - igranje Match 3 puzzle">
     <mxGraphModel dx="522" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="5amFPf08bo_55O6TdgfQ-2" value="Bodovanje" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="340" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-3" value="Unos igrača" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-3" value="Brijanje levela" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="10" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5amFPf08bo_55O6TdgfQ-4" value="Postavljanje igre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
