@@ -1,1 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T07:09:02.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="d1j_dbRdUGV5LF1IlenX" version="14.1.8" type="github"><diagram id="5-pdajmqWmWJAicr5mRn" name="Page-1">tZXfb5swEMf/Gh4nBRwS+phQ2k1b10jpOm1vLnbBlcHMHIHkr98xzG+i7qUSEb6vz2ff53zEIn5S3WuaxQ+KcWk5K1ZZ5NZyHNdxrPpZsXMjbF0jRFqwRrJ74Sgu3IgroxaC8XzkCEpJENlYDFWa8hBGGtValWO3VyXHu2Y04jPhGFI5V38KBnGjes621z9zEcXtzvbmpplJaOtsMsljylQ5kEhgEV8rBc0oqXwua3Ytl2bd3ZXZ7mCap/A/C36z6Gn3TO607dvfT+vHwAueP5koJyoLk/CXSFPLX1verTk2nFsWmEFWD4tE7kJQ2iL7E9cgkNY3+sLlQeUChErR5UUBqGTgsJMiqidAZajGkEg0bByqAqRIud/Vb4XiPLf2oBiOVwPJ5HrPVcJBn9GlnXUNd3PxiDHLvopbI8XDAm6MSM3FibrIPVscGLzLqCv94+3pa0b3LMgdFWaPv+I/V1CnbxzFBwphjG+Cv0NxuSDxKXzcAe88GvsyFsCPGQ3rmRK7bgz0CqgFnFfZkZsxO2/OznYW4Hkfxc6ZsZvzSdmu7ne0QknzXIRLWDibtfvsjuWq0CF/v2mA6ojDexWfQx5QdBcgtprmkoI4jY+7RNbscFACE+lq6GzGNVyvJsVp0jSrht+NSSBiTxrJnQRqOMwC/St0l/ZS7dHsP3+Ne/8fQoK/</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-08T07:11:28.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HEFvK4h5Kr1l6dF-ZYrf" version="14.1.8" type="github" pages="2">
+  <diagram id="5-pdajmqWmWJAicr5mRn" name="Use case - igranje Match 3 puzzle">
+    <mxGraphModel dx="522" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZdgTAV3Fr1C1Nv4OE8EV-1" value="Igrač" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="30" width="70" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xrUjTKpaBdEs2ocpOYhq-1" value="Igranje Match 3 Puzzle" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xrUjTKpaBdEs2ocpOYhq-2" value="" style="endArrow=classic;html=1;" parent="1" source="ZdgTAV3Fr1C1Nv4OE8EV-1" target="xrUjTKpaBdEs2ocpOYhq-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="400" as="sourcePoint" />
+            <mxPoint x="310" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ck1ioCpfjaDgW78Nzllb" name="Page-2">
+    <mxGraphModel dx="522" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="AChoiiJKMywgdTm3RpFy-0" />
+        <mxCell id="AChoiiJKMywgdTm3RpFy-1" parent="AChoiiJKMywgdTm3RpFy-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
