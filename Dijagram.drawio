@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T07:51:38.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eVm1ScGW6-VpQCWhHBCN" version="14.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-10T21:14:35.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Fo4vz7TGUbcUcLWAazl6" version="14.1.9" type="github" pages="3">
   <diagram id="5-pdajmqWmWJAicr5mRn" name="Use case - igranje Match 3 puzzle">
-    <mxGraphModel dx="522" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,48 +10,48 @@
         <mxCell id="xrUjTKpaBdEs2ocpOYhq-1" value="Igranje Match 3 Puzzle" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-2" value="Bodovanje" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-2" value="Bodovanje" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="340" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-3" value="Brijanje levela" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-3" value="Biranje levela" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="10" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-4" value="Postavljanje igre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-4" value="Postavljanje igre" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="90" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-5" value="Spajanje kombinacija" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-5" value="Spajanje kombinacija" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-7" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZdgTAV3Fr1C1Nv4OE8EV-1" target="xrUjTKpaBdEs2ocpOYhq-1">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-7" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ZdgTAV3Fr1C1Nv4OE8EV-1" target="xrUjTKpaBdEs2ocpOYhq-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="410" as="sourcePoint" />
             <mxPoint x="300" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-10" value="Use" style="endArrow=classic;html=1;" edge="1" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-2">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-10" value="Use" style="endArrow=classic;html=1;" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="300" as="sourcePoint" />
             <mxPoint x="320" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-11" value="Use" style="endArrow=classic;html=1;" edge="1" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-5">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-11" value="Use" style="endArrow=classic;html=1;" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="250" as="sourcePoint" />
             <mxPoint x="390" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-4">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-12" value="" style="endArrow=classic;html=1;" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="200" as="sourcePoint" />
             <mxPoint x="360" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-16" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5amFPf08bo_55O6TdgfQ-12">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-16" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5amFPf08bo_55O6TdgfQ-12" vertex="1" connectable="0">
           <mxGeometry x="0.1829" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5amFPf08bo_55O6TdgfQ-13" value="Use" style="endArrow=classic;html=1;" edge="1" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-3">
+        <mxCell id="5amFPf08bo_55O6TdgfQ-13" value="Use" style="endArrow=classic;html=1;" parent="1" source="xrUjTKpaBdEs2ocpOYhq-1" target="5amFPf08bo_55O6TdgfQ-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="170" as="sourcePoint" />
             <mxPoint x="290" y="120" as="targetPoint" />
@@ -154,6 +154,58 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9BXkFxLHhZFNnRGJVxVZ" name="Biranje levela">
+    <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-0" />
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-1" parent="YWto-cQ2uRvVfuoOh8C6-0" />
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="YWto-cQ2uRvVfuoOh8C6-1">
+          <mxGeometry x="384" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="YWto-cQ2uRvVfuoOh8C6-2" parent="YWto-cQ2uRvVfuoOh8C6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-4" value="Biranje levela" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="YWto-cQ2uRvVfuoOh8C6-1">
+          <mxGeometry x="339" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="YWto-cQ2uRvVfuoOh8C6-4" parent="YWto-cQ2uRvVfuoOh8C6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-8" value="Level otključan" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="YWto-cQ2uRvVfuoOh8C6-1">
+          <mxGeometry x="354.5" y="230" width="89" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-9" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="YWto-cQ2uRvVfuoOh8C6-8" parent="YWto-cQ2uRvVfuoOh8C6-1" target="YWto-cQ2uRvVfuoOh8C6-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="460" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="255" />
+              <mxPoint x="550" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-10" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="YWto-cQ2uRvVfuoOh8C6-8" parent="YWto-cQ2uRvVfuoOh8C6-1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="399" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-12" value="Postavljanje igre" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="YWto-cQ2uRvVfuoOh8C6-1">
+          <mxGeometry x="339" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YWto-cQ2uRvVfuoOh8C6-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="YWto-cQ2uRvVfuoOh8C6-12" parent="YWto-cQ2uRvVfuoOh8C6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ANiaaovGIixFWCr_NrHg-0" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="YWto-cQ2uRvVfuoOh8C6-1">
+          <mxGeometry x="384" y="410" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
