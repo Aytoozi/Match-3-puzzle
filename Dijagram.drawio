@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T22:17:45.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="13RoJ2u7o5fuzWtBV-6Z" version="14.1.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-10T22:18:24.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="G2-kAJMn8JemhMj20ht3" version="14.1.9" type="github" pages="5">
   <diagram id="5-pdajmqWmWJAicr5mRn" name="Use case - igranje Match 3 puzzle">
     <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -255,6 +255,14 @@
         <mxCell id="zYJpCJwNcraJSgT7H3iD-10" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="T9FHrXoj8GMZRsWmkSJ_-1">
           <mxGeometry x="390" y="530" width="30" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lgfq9GIVBwPOGhnwrG93" name="Spajanje kombinacija">
+    <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="nEWjPWD7TJghE_hB8YVw-0" />
+        <mxCell id="nEWjPWD7TJghE_hB8YVw-1" parent="nEWjPWD7TJghE_hB8YVw-0" />
       </root>
     </mxGraphModel>
   </diagram>
