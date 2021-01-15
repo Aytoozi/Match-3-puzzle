@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T21:10:05.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Iu-4RtNTque6weZXSbQN" version="14.1.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-15T21:12:12.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="VrYnvC8SPexf92VttVuR" version="14.1.9" type="github" pages="6">
   <diagram id="5-pdajmqWmWJAicr5mRn" name="Use case - igranje Match 3 puzzle">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,7 +210,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ANiaaovGIixFWCr_NrHg-0" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="YWto-cQ2uRvVfuoOh8C6-1" vertex="1">
-          <mxGeometry x="384" y="440" width="30" height="30" as="geometry" />
+          <mxGeometry x="384" y="490" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -378,7 +378,7 @@
             <mxPoint x="399" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T0nKI45FCejaM1wBfEy7-4" value="Provjera jesmo li prešli određeni target" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="rTmLCoLnnM_cf4FA95xj-1">
+        <mxCell id="T0nKI45FCejaM1wBfEy7-4" value="Provjera jesmo li prešli određeni cilj" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="rTmLCoLnnM_cf4FA95xj-1">
           <mxGeometry x="340" y="360" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="T0nKI45FCejaM1wBfEy7-5" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="T0nKI45FCejaM1wBfEy7-4" parent="rTmLCoLnnM_cf4FA95xj-1">
@@ -394,9 +394,13 @@
         <mxCell id="T0nKI45FCejaM1wBfEy7-7" value="Otključavanje novog levela" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="rTmLCoLnnM_cf4FA95xj-1">
           <mxGeometry x="340" y="490" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T0nKI45FCejaM1wBfEy7-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="T0nKI45FCejaM1wBfEy7-7" parent="rTmLCoLnnM_cf4FA95xj-1">
+        <mxCell id="T0nKI45FCejaM1wBfEy7-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="T0nKI45FCejaM1wBfEy7-7" parent="rTmLCoLnnM_cf4FA95xj-1" target="_9HiyDOjUyqEohlr8DNS-0">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="590" as="targetPoint" />
+            <mxPoint x="400" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="600" />
+              <mxPoint x="600" y="600" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jnFXrOUy7Az4FkIU0d2s-0" value="Ponavljanje levela" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="rTmLCoLnnM_cf4FA95xj-1">
@@ -406,6 +410,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_9HiyDOjUyqEohlr8DNS-0" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="rTmLCoLnnM_cf4FA95xj-1">
+          <mxGeometry x="585" y="480" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
