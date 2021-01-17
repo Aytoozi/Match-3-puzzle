@@ -42,10 +42,5 @@ class Extras(object):
 
 for vrsta in Extras.vrste():
     for broj in Extras.brojevi():
-        e=Extras(broj,vrsta)
+        e=Extras(broj, vrsta)
         print('%r %s %s %d' % (e, e, e.boja, e.bod))
-
-
-
-
-    
