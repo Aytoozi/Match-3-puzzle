@@ -1,17 +1,18 @@
 import random
 
 def main(object):
-    Elementi=Extras()
-    start=Prikaz()
-    start.Pocetak()
-    igrac=Igrac()
-    igrac.UnosIgraca()
-    tabla=Polje()
-    tabla.provjeri()
-    potez=Igra()
-    potez.odabir()
-    tabla.eliminirajPostaviBoduj()
-    tabla.provjeri()
+    while True:
+        Elementi=Extras()
+        start=Prikaz()
+        start.Pocetak()
+        igrac=Igrac()
+        igrac.UnosIgraca()
+        tabla=Polje()
+        tabla.provjeri()
+        potez=Igra()
+        potez.odabir()
+        tabla.eliminirajPostaviBoduj()
+        tabla.provjeri()
 
 class Extras(object):
     __slatkis=['crni', 'crveni', 'plavi', 'zeleni', 'zuti', 'ljubicasti']
@@ -136,5 +137,6 @@ class Polje(object):
                         [(random.choice(Extras.slatkisi()),\
                           random.choice(Extras.vrste()))\
                          for x in range(10)]
-        return
+                else:
+                    return False
         
