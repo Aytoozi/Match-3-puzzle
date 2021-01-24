@@ -1,7 +1,19 @@
 import random
 
+def main(object):
+    Elementi=Extras()
+    start=Prikaz()
+    start.Pocetak()
+    igrac=Igrac()
+    igrac.UnosIgraca()
+    tabla=Polje()
+    tabla.provjeri()
+    potez=Igra()
+    potez.odabir()
+    tabla.eliminirajPostaviBoduj()
+    tabla.provjeri()
+
 class Extras(object):
-#kljuc je broj, vrijednosti su boja i broj bodova koji taj slatkis nosi
     __slatkis=['crni', 'crveni', 'plavi', 'zeleni', 'zuti', 'ljubicasti']
 
     __vrsta=['nagradni']*30+['obicni']*100+['bombe']*10
@@ -46,7 +58,9 @@ class Igrac(object):
                 return ID
 
 class Igra(object):
-
+    def odabir(self):
+        zamjena=input('\n'+'Unesi broj redka pa stupca od elementa koji bi zamijenio: ')
+        zaZamijeniti=input('\n'+'Unesi broj redka pa stupca od elementa s kojim bi ga zamijenio: ')
 
 class Polje(object):
     def __init__(self):
@@ -102,7 +116,7 @@ class Polje(object):
                             __postavi[x+1][y].append('dell')
         return
 
-    def eliminirajPostaviBoduj(self, __postavi):
+    def eliminirajPostaviBoduj(self, __postavi, bodovi):
         for x in range(10):
             for y in range(10):
                 if 'dell' in __postavi[x][y]:
@@ -122,6 +136,5 @@ class Polje(object):
                         [(random.choice(Extras.slatkisi()),\
                           random.choice(Extras.vrste()))\
                          for x in range(10)]
-
-
-
+        return
+        
