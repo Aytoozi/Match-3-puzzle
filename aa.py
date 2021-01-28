@@ -65,6 +65,13 @@ class Slatkisi(object):
                 i = 0
         return ispis
 
+    def mjesanje_slatkisa():
+        for i in range(40):
+            random.shuffle(self.__extrasi)
+
+    
+            
+    
 class Prikaz(object):
     def Pocetak(self):
         print('Dobrodošli u igru Match-3-puzzle'+'_'*40+'\n')
