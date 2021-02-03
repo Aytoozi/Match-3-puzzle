@@ -1,5 +1,7 @@
 import random
 
+bodovi = 0
+
 def main():
     start = Prikaz()
     start.Pocetak()
@@ -7,11 +9,11 @@ def main():
     igrac.UnosIgraca()
     while True:
         tabla=Polje()
-        tabla.provjeri(Polje.__postavi)
+        tabla.provjeri(tabla.getm())
         potez=Igra()
         potez.odabir()
-        tabla.eliminirajPostaviBoduj(Polje.__postavi)
-        tabla.provjeri(Polje.__postavi)
+        tabla.eliminirajPostaviBoduj(tabla.getm(), bodovi)
+        tabla.provjeri(tabla.getm())
 
 class Extras(object):
     __slatkis=['crni', 'crveni', 'plavi', 'zeleni', 'zuti', 'ljubicasti']
@@ -95,54 +97,58 @@ class Polje(object):
                 print(self.__postavi[i][j], end=" ")
             print()
 
-    bodovi = 0
+    def getm(self):
+        return self.__postavi
+
+    global dell
+    dell='dell'
 
     def provjeri(self, __postavi):
         for x in range(10):
             for y in range(10):
                 if (__postavi[x][y-1]==__postavi[x][y]):
-                    __postavi[x][y].append('dell')
-                    __postavi[x][y + 1].append('dell')
+                    __postavi[x][y]+=(dell,)
+                    __postavi[x][y + 1]+=(dell,)
                     if (__postavi[x][y] == __postavi[x][y + 1]):
-                        __postavi[x][y+1].append('dell')
+                        __postavi[x][y+1]+=(dell,)
                         if (__postavi[x][y+1]==__postavi[x][y+2]):
-                            __postavi[x][y + 2].append('dell')
+                            __postavi[x][y + 2]+=(dell,)
                         if (__postavi[x][y + 1] == __postavi[x-1][y + 1]):
-                            __postavi[x-1][y + 1].append('dell')
+                            __postavi[x-1][y + 1]+=(dell,)
                         if (__postavi[x][y + 1] == __postavi[x+1][y + 1]):
-                            __postavi[x+1][y + 1].append('dell')
+                            __postavi[x+1][y + 1]+=(dell,)
                     if(__postavi[x][y] == __postavi[x - 1][y]):
-                        __postavi[x-1][y].append('dell')
+                        __postavi[x-1][y]+=(dell,)
                         if (__postavi[x-1][y]==__postavi[x-2][y]):
-                            __postavi[x][y - 2].append('dell')
+                            __postavi[x][y - 2]+=(dell,)
                         if (__postavi[x-1][y] == __postavi[x-1][y - 1]):
-                            __postavi[x-1][y - 1].append('dell')
+                            __postavi[x-1][y - 1]+=(dell,)
                         if (__postavi[x-1][y] == __postavi[x+1][y + 1]):
-                            __postavi[x-1][y + 1].append('dell')
+                            __postavi[x-1][y + 1]+=(dell,)
                     if(__postavi[x][y] == __postavi[x + 1][y]):
-                        __postavi[x+1][y].append('dell')
+                        __postavi[x+1][y]+=(dell,)
                         if (__postavi[x+1][y]==__postavi[x+2][y]):
-                            __postavi[x+2][y].append('dell')
+                            __postavi[x+2][y]+=(dell,)
                         if (__postavi[x+1][y] == __postavi[x+1][y + 1]):
-                            __postavi[x+1][y + 1].append('dell')
+                            __postavi[x+1][y + 1]+=(dell,)
                         if (__postavi[x+1][y] == __postavi[x+1][y - 1]):
-                            __postavi[x+1][y - 1].append('dell')
+                            __postavi[x+1][y - 1]+=(dell,)
                     if(__postavi[x][y - 1] == __postavi[x - 1][y-1]):
-                        __postavi[x-1][y-1].append('dell')
+                        __postavi[x-1][y-1]+=(dell,)
                         if (__postavi[x-1][y-1]==__postavi[x-1][y-2]):
-                            __postavi[x-1][y - 2].append('dell')
+                            __postavi[x-1][y - 2]+=(dell,)
                         if (__postavi[x-1][y - 1] == __postavi[x-1][y]):
-                            __postavi[x-1][y].append('dell')
+                            __postavi[x-1][y]+=(dell,)
                         if (__postavi[x-1][y - 1] == __postavi[-2][y - 1]):
-                            __postavi[x-2][y - 1].append('dell')
+                            __postavi[x-2][y - 1]+=(dell,)
                     if(__postavi[x][y - 1] == __postavi[x + 1][y-1 ]):
-                        __postavi[x+1][y-1].append('dell')
+                        __postavi[x+1][y-1]+=(dell,)
                         if (__postavi[x+1][y-1]==__postavi[x+2][y-1]):
-                            __postavi[x+2][y - 2].append('dell')
+                            __postavi[x+2][y - 2]+=(dell,)
                         if (__postavi[x+1][y - 1] == __postavi[x+1][y - 2]):
-                            __postavi[x-1][y -2].append('dell')
+                            __postavi[x-1][y -2]+=(dell,)
                         if (__postavi[x+1][y - 1] == __postavi[x+1][y]):
-                            __postavi[x+1][y].append('dell')
+                            __postavi[x+1][y]+=(dell,)
         return
 
     def eliminirajPostaviBoduj(self, __postavi, bodovi):
