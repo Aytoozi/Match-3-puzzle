@@ -1,18 +1,17 @@
 import random
 
-def main(object):
+def main():
+    start = Prikaz()
+    start.Pocetak()
+    igrac = Igrac()
+    igrac.UnosIgraca()
     while True:
-        Elementi=Extras()
-        start=Prikaz()
-        start.Pocetak()
-        igrac=Igrac()
-        igrac.UnosIgraca()
         tabla=Polje()
-        tabla.provjeri()
+        tabla.provjeri(Polje.__postavi)
         potez=Igra()
         potez.odabir()
-        tabla.eliminirajPostaviBoduj()
-        tabla.provjeri()
+        tabla.eliminirajPostaviBoduj(Polje.__postavi)
+        tabla.provjeri(Polje.__postavi)
 
 class Extras(object):
     __slatkis=['crni', 'crveni', 'plavi', 'zeleni', 'zuti', 'ljubicasti']
@@ -49,12 +48,12 @@ class Extras(object):
 class Slatkisi(object):
 
     def __init__(self):
-        self.__extrasi=[]
+        self.__extrasi = []
         for vrsta in Extras.__vrsta():
             for slatkis in Extras.__slatkis():
-                self.__extrasi.append(Extras(vrsta = vrsta, slatkis = slatkis))
-                
-    def __str__(self, red = 4, sirina = 15):
+                self.__extrasi.append(Extras(vrsta=vrsta, slatkis=slatkis))
+
+    def __str__(self, red=4, sirina=15):
         ispis = ""
         i = 0
         for extras in self.__extrasi:
@@ -69,9 +68,7 @@ class Slatkisi(object):
         for i in range(40):
             random.shuffle(self.__extrasi)
 
-    
-            
-    
+
 class Prikaz(object):
     def Pocetak(self):
         print('Dobrodošli u igru Match-3-puzzle'+'_'*40+'\n')
@@ -92,6 +89,11 @@ class Igra(object):
 class Polje(object):
     def __init__(self):
         self.__postavi=[[(random.choice(Extras.slatkisi()), random.choice(Extras.vrste())) for x in range(10)] for z in range(10)]
+
+        for i in range(10):
+            for j in range(10):
+                print(self.__postavi[i][j], end=" ")
+            print()
 
     bodovi = 0
 
@@ -160,9 +162,10 @@ class Polje(object):
                             if 'nagradni' in i:
                                 bodovi += 50
                         __postavi[x].pop(0)
-                        [(random.choice(Extras.slatkisi()),\
-                          random.choice(Extras.vrste()))\
-                         for x in range(10)]
+                    [(random.choice(Extras.slatkisi()),\
+                    random.choice(Extras.vrste()))\
+                    for x in range(10)]
                 else:
                     return False
-        
+
+main()
