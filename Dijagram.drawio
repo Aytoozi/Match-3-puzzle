@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T10:17:21.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="GbNsI_-56OnZ4vIo16Nb" version="14.4.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-18T10:20:56.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="rrjbT-BOQQ_c1lDxrL13" version="14.4.0" type="github" pages="10">
   <diagram id="5-pdajmqWmWJAicr5mRn" name="Use case - igranje Match 3 puzzle">
     <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -600,9 +600,9 @@
         <mxCell id="IczURff263Fo3zkgRQeC-5" value="start: Prikaz()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="IczURff263Fo3zkgRQeC-1">
           <mxGeometry x="190" y="-1130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IczURff263Fo3zkgRQeC-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="IczURff263Fo3zkgRQeC-1">
+        <mxCell id="IczURff263Fo3zkgRQeC-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="IczURff263Fo3zkgRQeC-1" source="IczURff263Fo3zkgRQeC-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="-610" as="sourcePoint" />
+            <mxPoint x="250" y="-1030" as="sourcePoint" />
             <mxPoint x="250" y="-1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -632,6 +632,24 @@
             <mxPoint x="720" y="-610" as="sourcePoint" />
             <mxPoint x="720" y="-1070" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IczURff263Fo3zkgRQeC-13" value="" style="endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IczURff263Fo3zkgRQeC-1" target="IczURff263Fo3zkgRQeC-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="-1020" as="sourcePoint" />
+            <mxPoint x="230" y="-1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IczURff263Fo3zkgRQeC-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="IczURff263Fo3zkgRQeC-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="-610" as="sourcePoint" />
+            <mxPoint x="250" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IczURff263Fo3zkgRQeC-16" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="IczURff263Fo3zkgRQeC-1">
+          <mxGeometry x="222.5" y="-1002.5" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IczURff263Fo3zkgRQeC-17" value="1: __init__()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="IczURff263Fo3zkgRQeC-1">
+          <mxGeometry x="120" y="-1040" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
