@@ -184,7 +184,7 @@ class Polje(object):
 
 class Igra(Polje):
     def odabir(self):
-        super().getm()
+        nesto=super().getm()
         bolic=1
         while bolic:
             print('Unesi broj redka i stupca elemenata kojima bi zamijenio pozicije...')
@@ -194,10 +194,10 @@ class Igra(Polje):
             zamjena2_stupac =int( input('\n' + 'Stupac elementa s kojim bi ga zamijenio/la: '))
             if ((zamjena1_red==(zamjena2_red-1) or zamjena1_red==(zamjena2_red+1) or zamjena1_red==(zamjena2_red))\
                 and (zamjena1_stupac==(zamjena2_stupac-1) or zamjena1_stupac==(zamjena2_stupac+1) or zamjena1_stupac==(zamjena2_stupac))):
-                self.__postavi[zamjena1_red][zamjena1_stupac], \
-                self.__postavi[zamjena2_red][zamjena2_stupac] = \
-                self.__postavi[zamjena2_red][zamjena2_stupac], \
-                self.__postavi[zamjena1_red][zamjena1_stupac]
+                nesto[zamjena1_red][zamjena1_stupac], \
+                nesto[zamjena2_red][zamjena2_stupac] = \
+                nesto[zamjena2_red][zamjena2_stupac], \
+                nesto[zamjena1_red][zamjena1_stupac]
             else:
                 print('Morate odabrati susjedne elemente!')
                 break
