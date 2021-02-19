@@ -78,18 +78,15 @@ class Polje(object):
     dell='dell'
 
     def provjeri(self, __postavi):
-        previous = next_ = None
+        prethodni = sljedeci = None
         l = len(__postavi)
         for index, obj in enumerate(__postavi):
             if index > 0:
-                previous = __postavi[index - 1]
+                prethodni = __postavi[index - 1]
             if index < (l - 1):
-                next_ = __postavi[index + 1]
-        print('metoda')
+                sljedeci = __postavi[index + 1]
         for x in range(len(list(lista))-2):
-            print('\nred')
             for y in range(1, len(list(lista))-2, 1):
-                print('stupac')
                 if ((__postavi[0])[x][y-1]==(__postavi[0])[x][y]):
                     __postavi[x][y]+=(dell,)
                     __postavi[x][y-1]+=(dell,)
@@ -134,7 +131,7 @@ class Polje(object):
                         if ((__postavi[0])[x+1][y - 1] == (__postavi[0])[x+1][y]):
                             __postavi[x+1][y]+=(dell,)
                 else:
-                    print("else")
+                    pass
 
     def eliminirajPostaviBoduj(self, __postavi, bodovi):
         for x in range(10):
