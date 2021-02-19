@@ -51,30 +51,6 @@ class Extras(object):
     def __str__(self):
         return self.slatkis.title() + ' ' + self.vrsta
 
-class Slatkisi(object):
-
-    def __init__(self):
-        self.__extrasi = []
-        for vrsta in Extras.__vrsta():
-            for slatkis in Extras.__slatkis():
-                self.__extrasi.append(Extras(vrsta=vrsta, slatkis=slatkis))
-
-    def __str__(self, red=4, sirina=15):
-        ispis = ""
-        i = 0
-        for extras in self.__extrasi:
-            ispis += str(extras).ljust(sirina, ' ')
-            i += 1
-            if i == red:
-                ispis += '\n'
-                i = 0
-        return ispis
-
-    def mjesanje_slatkisa():
-        for i in range(40):
-            random.shuffle(self.__extrasi)
-
-
 class Prikaz(object):
     def Pocetak(self):
         print('Dobrodošli u igru Match-3-puzzle'+'_'*40+'\n')
@@ -85,8 +61,7 @@ class Igrac(object):
             if ID.strip():
                 print('\n'+'_'*50+'\n')
 
-    @staticmethod
-    def getIgrac(self):
+    def getIgrac(self, ID):
         return ID
 
 class Polje(object):
@@ -103,11 +78,21 @@ class Polje(object):
     dell='dell'
 
     def provjeri(self, __postavi):
-        for x in range(len(list(lista))):
-            for y in range(1, len(list(lista)), 1):
+        previous = next_ = None
+        l = len(__postavi)
+        for index, obj in enumerate(__postavi):
+            if index > 0:
+                previous = __postavi[index - 1]
+            if index < (l - 1):
+                next_ = __postavi[index + 1]
+        print('metoda')
+        for x in range(len(list(lista))-2):
+            print('\nred')
+            for y in range(1, len(list(lista))-2, 1):
+                print('stupac')
                 if ((__postavi[0])[x][y-1]==(__postavi[0])[x][y]):
                     __postavi[x][y]+=(dell,)
-                    __postavi[x][y + 1]+=(dell,)
+                    __postavi[x][y-1]+=(dell,)
                     if ((__postavi[0])[x][y] == (__postavi[0])[x][y + 1]):
                         __postavi[x][y+1]+=(dell,)
                         if ((__postavi[0])[x][y+1]==(__postavi[0])[x][y+2]):
@@ -148,6 +133,8 @@ class Polje(object):
                             __postavi[x-1][y -2]+=(dell,)
                         if ((__postavi[0])[x+1][y - 1] == (__postavi[0])[x+1][y]):
                             __postavi[x+1][y]+=(dell,)
+                else:
+                    print("else")
 
     def eliminirajPostaviBoduj(self, __postavi, bodovi):
         for x in range(10):
@@ -173,6 +160,7 @@ class Polje(object):
                         __postavi[x][y] += [(random.choice(Extras.slatkisi()),\
                                              random.choice(Extras.vrste())) \
                                              for z in range(10)]
+        return bodovi
 
     def bodovanje(self, bodovi):
         print(f"Trenutni broj bodova je: {bodovi}")
@@ -209,9 +197,8 @@ class Igra(Polje, Igrac):
 
     def kraj(self):
         idd=super().getIgrac()
-        bod=super().bodovanje()
-        print(f'Igrač {idd} je osvojio {bod} bodova. Cestitam!')
-
+        bod=super().bodovanje(bodovi)
+        print(f'Igrač {idd} ima {bod} bodova. Bravo!')
         return
 
 main()
